@@ -1,10 +1,19 @@
 import './App.css'
+import Banner from './components/Banner/Banner'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-2xl'>Customer Support by Muhib</h1>
+      <header>
+        <Navbar></Navbar>
+
+        {/* Banner Section */}
+        <section>
+          <Banner></Banner>
+        </section>
+      </header>
     </>
   )
 }

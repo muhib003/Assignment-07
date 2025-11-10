@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Unable to reset password",
+    "description": "Customer reports receiving an error message when attempting to reset their password.",
+    "customer": "Alice Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-11-08T10:24:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Payment not processed",
+    "description": "Payment for the premium subscription failed despite valid card details.",
+    "customer": "Mark Spencer",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2025-11-07T15:42:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Broken image on dashboard",
+    "description": "The main product image on the dashboard does not load properly.",
+    "customer": "Emily Carter",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-11-06T09:12:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Cannot update profile details",
+    "description": "Customer cannot change email or phone number in account settings.",
+    "customer": "John Doe",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-11-09T13:33:00Z"
+  },
+  {
+    "id": 5,
+    "title": "App crashes on login",
+    "description": "Mobile app crashes immediately after entering login credentials.",
+    "customer": "Sophia Williams",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2025-11-08T18:57:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Email notifications not received",
+    "description": "User is not getting email alerts for new ticket responses.",
+    "customer": "Liam Brown",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-11-05T11:20:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Error 500 on order page",
+    "description": "Server error occurs when trying to view order history.",
+    "customer": "Olivia Martinez",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-11-07T08:45:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Incorrect invoice amount",
+    "description": "The total on the invoice does not match the items purchased.",
+    "customer": "Noah Lee",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-11-06T14:00:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Feature request: dark mode",
+    "description": "Customer requested the addition of a dark mode feature for better accessibility.",
+    "customer": "Ava Thompson",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-11-04T16:28:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Subscription cancellation issue",
+    "description": "Customer cannot cancel their subscription through the account page.",
+    "customer": "Ethan Walker",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-11-09T07:50:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Website slow to load",
+    "description": "Customer reports very slow page load times on desktop browser.",
+    "customer": "Isabella Perez",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-11-03T12:10:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Refund not received",
+    "description": "Customer requested a refund two weeks ago but hasn’t received confirmation.",
+    "customer": "James Cooper",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-11-05T10:36:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Two-factor authentication not working",
+    "description": "Customer unable to log in because 2FA code is not accepted.",
+    "customer": "Mia Rivera",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2025-11-10T09:15:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Attachment upload fails",
+    "description": "Attachments over 5MB fail to upload when creating a ticket.",
+    "customer": "Benjamin Nguyen",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2025-11-02T11:05:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Chat support not connecting",
+    "description": "Live chat fails to connect to an agent after waiting for several minutes.",
+    "customer": "Charlotte Kim",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-11-09T20:22:00Z"
+  }
+]
