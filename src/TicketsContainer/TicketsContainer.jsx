@@ -3,6 +3,7 @@ import Banner from "../components/Banner/Banner";
 import TicketCard from "../TicketCard/TicketCard";
 import TaskCard from "../TaskCard/TaskCard";
 import ResolvedCard from "../ResolvedCard/ResolvedCard";
+import { Bounce, toast } from "react-toastify";
 
 const TicketsContainer = ({ promiseCustomers }) => {
   const customers = use(promiseCustomers);
@@ -12,14 +13,38 @@ const TicketsContainer = ({ promiseCustomers }) => {
   const [resolvedTask, setResolvedTask] = useState([]);
 
   const handleCustomerTask = (customer) => {
+    toast.success("Your Ticket is Add to Task Status", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+      transition: Bounce,
+    });
     setCustomerTask([...customerTask, customer]);
   };
 
   const handleResolve = (task) => {
+    toast.success("Your Task is Complete", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+      transition: Bounce,
+    });
     setResolvedTask([...resolvedTask, task]);
     const restTask = customerTask.filter((custTask) => custTask.id !== task.id);
     setCustomerTask(restTask);
-    const restAllCustomers = allCustomers.filter(custo=> custo.id !== task.id);
+    const restAllCustomers = allCustomers.filter(
+      (custo) => custo.id !== task.id
+    );
     setAllCustomers(restAllCustomers);
   };
 
